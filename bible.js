@@ -65,7 +65,6 @@ $(document).ready(function() {
 			success: function(response){
 				var str = '<strong>' + response.result.length + ' verses found</strong><br>';
 				var verse;
-				console.log(response.result);
 				for(i = 0; i < response.result.length; i++) {
 					verse = response.result[i];
 					str += '<font color="blue">'
